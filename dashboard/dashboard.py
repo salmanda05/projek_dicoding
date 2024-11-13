@@ -6,7 +6,7 @@ import streamlit as st
 sns.set(style='dark')
 
 #Membaca file csv
-day_df = pd.read_csv('day.csv')
+day_df = pd.read_csv('dashboard/day.csv')
 day_df.head()
 
 # Menyiapkan casual_daily_rent_df
@@ -66,7 +66,7 @@ max_date = day_df['dteday'].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image('bike4.png')
+    st.image('dashboard/bike4.png')
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
