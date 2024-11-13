@@ -120,7 +120,7 @@ with col3:
 # Membuat jumlah penyewaan berdasarkan musim
 st.subheader('Number of Bike Renters by Season')
 sns.set_style('white')
-fig, ax = plt.subplots(figsize=(11, 5))  # Ukuran fig diubah agar sesuai
+fig, ax = plt.subplots(figsize=(10, 5))  # Ukuran fig diubah agar sesuai
 
 
 colors = ['#2f5756', '#fdba45', '#ac163b', '#4a6252']
@@ -160,7 +160,7 @@ st.pyplot(fig)
 # Membuat jumlah penyewaan berdasarkan cuaca
 st.subheader('Number of Bike Renters by Weather')
 sns.set_style('white')
-fig, ax = plt.subplots(figsize=(10, 5))  # Ukuran fig diubah agar sesuai
+fig, ax = plt.subplots(figsize=(11, 5))  # Ukuran fig diubah agar sesuai
 
 colors = ['#ac163b', '#fdba45', '#4a6252']
 
